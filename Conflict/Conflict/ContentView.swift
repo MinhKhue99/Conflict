@@ -14,8 +14,13 @@ struct ContentView: View {
                 .imageScale(.large)
                 .foregroundStyle(.tint)
             Text("Hello, world!")
+<<<<<<< HEAD
                 .multilineTextAlignment(.center)
                 .foregroundStyle(.green)
+=======
+                .font(.title.bold())
+                .padding()
+>>>>>>> 5129504 (feature: modify title)
         }
         .padding()
     }
